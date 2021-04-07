@@ -10,11 +10,8 @@ use buffer_plugin::BufferPlugin;
 use status::Status;
 
 pub struct BarItems {
-    #[used]
     status: BarItem,
-    #[used]
     buffer_name: BarItem,
-    #[used]
     buffer_plugin: BarItem,
 }
 

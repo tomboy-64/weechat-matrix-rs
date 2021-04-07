@@ -11,7 +11,6 @@ use weechat::{
 use crate::Servers;
 
 pub struct Completions {
-    #[used]
     servers: CompletionHook,
 }
 

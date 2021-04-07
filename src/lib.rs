@@ -150,15 +150,10 @@ impl SignalCallback for Servers {
 
 struct Matrix {
     servers: Servers,
-    #[used]
     commands: Commands,
-    #[used]
     config: ConfigHandle,
-    #[used]
     bar_items: BarItems,
-    #[used]
     typing_notice_signal: SignalHook,
-    #[used]
     completions: Completions,
     debug_buffer: RefCell<Option<BufferHandle>>,
 }
